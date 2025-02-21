@@ -5,7 +5,9 @@ def a_star(start_state, max_crossings):
     while open_dict:
         # Βρίσκουμε την κατάσταση με το ελάχιστο f.
         current = min(open_dict, key=open_dict.get)
-
+        
+        # Δια σχιση καταστα σεων απο  την Α* 
+        
         # left_m = current.left_missionaries
         # left_c = current.left_cannibals
         # right_m = current.N - current.left_missionaries
@@ -16,7 +18,7 @@ def a_star(start_state, max_crossings):
         #     f_left_c = current._father.left_cannibals
         #     f_right_m = current.N - current._father.left_missionaries
         #     f_right_c = current.N - current._father.left_cannibals
-#
+        
         #     if boat_left :
         #         print("g:", current._g,"m_r", right_m , "c_r", right_c, "m_b:", abs(f_right_m - right_m), " c_b:", abs(f_right_c - right_c), "h:", current._h)
         #     else:
