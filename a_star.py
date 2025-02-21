@@ -6,7 +6,7 @@ def a_star(start_state, max_crossings):
         # Βρίσκουμε την κατάσταση με το ελάχιστο f.
         current = min(open_dict, key=open_dict.get)
         
-        # Δια σχιση καταστα σεων απο  την Α* 
+        # Διάσχιση καταστάσεων από την Α* 
         
         # left_m = current.left_missionaries
         # left_c = current.left_cannibals
