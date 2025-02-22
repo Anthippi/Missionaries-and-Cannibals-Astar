@@ -1,4 +1,4 @@
-# Πρόβλημα Ιεραποστόλων και Κανιβάλων με A*
+# Πρόβλημα Ιεραποστόλων και Κανιβάλων με A* [![Static Badge](https://img.shields.io/badge/English-orange)](READEME.en.md)
 
 ## Περιγραφή Προβλήματος
 
